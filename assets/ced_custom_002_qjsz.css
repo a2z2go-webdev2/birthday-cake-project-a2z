@@ -1,0 +1,352 @@
+/*======================================
+=            COMMON SECTION            =
+======================================*/
+body
+{
+	font-size: 15px;
+}
+
+
+/*=====  End of COMMON SECTION  ======*/
+
+/*====================================
+=            NOTIFICATION            =
+====================================*/
+.pincode-div .error.message > :first-child::before,
+.message.info > :first-child::before,
+.message.success > :first-child::before
+{
+	top: 27px;
+}
+.pincode-div .error.message,
+.message.info,
+.message.success
+{
+	padding: 20px 40px;
+}
+/*=====  End of NOTIFICATION  ======*/
+/* img.tree-ec-icon.tree-elbow-plus{
+	width: 10% !important;
+}
+img.tree-ec-icon.tree-elbow-minus{
+	width: 10% !important;
+} */
+/*========================================
+=            VENDOR SHOP PAGE            =
+========================================*/
+.sidebar-wrap .block-content img {
+	width: auto;
+	max-width: 100%;
+}
+.toolbar-products .sorter select {
+	float: right;
+}
+.toolbar-products label {
+	float: left;
+    padding-top: 5px;
+}
+.toolbar-products .modes {
+	padding-left: 15px;
+}
+/*=====  End of VENDOR SHOP PAGE  ======*/
+.box-actions::after {
+	content: ;
+	content: '';
+	clear: both;
+	display: table;
+}
+.block.block-dashboard-info .box-actions > a 
+{
+	float: left !important;
+	margin-right: 10px;
+}
+.csmarketplace-vshops-index .columns {
+	display: flex !important;
+}
+.page-wrapper .page-main {
+	padding-top: 20px;
+}
+.form-list .input-box > select {
+	width: 100%;
+}
+.sidebar-wrap .shipping ul li {
+	margin-bottom: 1rem;
+}
+.actions-toolbar .primary .action 
+{
+	margin-bottom: 10px;
+}
+/*===========================
+=            RMA            =
+===========================*/
+.csrma-customerrma-view .block
+{
+	padding: 0 10px;
+}
+.csrma-customerrma-view .block-content {
+	font-weight: normal;
+	color: #333333;
+	text-shadow: 0 0 0;
+}
+.label {
+	font-weight: 600;
+	color: #000000;
+	text-shadow: 0 0 0;
+}
+.block-content .field {
+	margin-bottom: 15px;
+}
+.csrma-customerrma-view .block.order_information {
+	width: 17%;
+	float: left;
+}
+.csrma-customerrma-view .block.customer_information {
+	width: 17%;
+	float: right;
+}
+.csrma-customerrma-view .block.item_information {
+	width: 66%;
+	float: left;
+}
+.csrma-customerrma-view .block.new_chat {
+	width: 33%;
+	float: left;
+}
+.csrma-customerrma-view .block.activity_notification {
+	width: 100%;
+	clear: both;
+}
+.csrma-customerrma-view .block.chat_history {
+	width: 33%;
+	float: left;
+}
+.csrma-customerrma-view .ced-rma-chats-list::after {
+	content: ;
+	content: '';
+	clear: both;
+	display: table;
+}
+.csrma-customerrma-view .ced-rma-chats-list {
+	padding: 0;
+	list-style: none;
+	max-height: 350px;
+	overflow-y:auto; 
+}
+.csrma-customerrma-view .ced-rma-right-chat-column,
+.csrma-customerrma-view .ced-rma-left-chat-column
+{
+	width: 80%;
+	word-wrap: break-word;
+}
+.csrma-customerrma-view .page-title {
+	text-align: left;
+}
+.ced-rma-right-chat-column {
+	position: relative;
+	margin-right: 20px;
+}
+.ced-rma-right-chat-column::after {
+	content: '';
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	right: -7px;
+	background: #f3f3df;
+	top: 3px;
+	transform: rotate(45deg);
+}
+.ced-rma-left-chat-column
+{
+	position: relative;
+	margin-left:20px;
+}
+.ced-rma-left-chat-column::after {
+	content: '';
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	left: -7px;
+	background: #d3d3d3;
+	top: 3px;
+	transform: rotate(45deg);
+}
+.csrma-customerrma-view td.col,
+.csrma-customerrma-view th.col
+ {
+	min-width: 100px;
+	text-align: left !important;
+	padding: 0;
+}
+.csrma-customerrma-view .ced-rma-right-chat-column-comment,
+.csrma-customerrma-view .ced-rma-left-chat-column
+{
+	color: #525252;
+	font-size: 14px;
+}
+
+
+
+.csrma-customerrma-form .field textarea[name="policy-text"] 
+{
+	display: block;
+	margin: 10px 0;
+	width: 100%;
+	height: 100px;
+}
+.csrma-customerrma-form select[aria-required="true"] {
+    width: 100%;
+}
+/*=====  End of RMA  ======*/
+/*=======================================
+=            REFER TO FRIEND            =
+=======================================*/
+.rewardsystem-referral-index .main .fieldset {
+	letter-spacing: 0 !important;
+}
+.rewardsystem-referral-index .control .input-text
+{
+	width: 100%;
+}
+.rewardsystem-referral-index .fieldset .legend
+{
+	padding: 15px 0;
+}
+.rewardsystem-referral-index .legend > span {
+	font-weight: 500;
+	text-shadow: 0 0 0;
+}
+
+/*=====  End of REFER TO FRIEND  ======*/
+
+/* ========shoppage columns css(sc)========= */
+.csmarketplace-vshops-index .sidebar-wrap {
+        margin-top: 20px;
+}
+.csmarketplace-vshops-index .sidebar-wrap .form-list li .input-box select[id="country"] {
+        width: 100%;
+}
+.csmarketplace-vshops-index .sidebar-wrap .form-list li {
+        margin: 10px 0px;
+}
+.csmarketplace-vshops-index .buttons-set {
+        margin: 15px 0px;
+}
+.header-maininner-row .header-content-action {
+        display: flex;
+        flex-wrap: nowrap;
+}
+.header-maininner-row .header-content-action > div {
+        display: flex;
+        flex-wrap: nowrap;
+}
+/*checkoutpage*/
+.checkout-index-index .checkout-shipping-method .step-title {
+	margin-bottom: 15px;
+}
+.checkout-index-index .checkout-shipping-method .items.methods .item-title {
+	margin-bottom: 10px;
+}
+.checkout-index-index .checkout-shipping-method .item-options .field.choice {
+	margin-bottom: 5px;
+}
+.checkout-index-index .checkout-shipping-method .item-options .control.field input {
+	height: 42px;
+	padding-left: 10px;
+}
+.checkout-index-index .checkout-shipping-method .item-options .control.field {
+	margin-top: 8px;
+}
+.checkout-index-index .checkout-shipping-method .item-options strong.label{
+	margin-top: 10px;
+	display: block;
+}
+.checkout-index-index .checkout-shipping-method .item-options p {
+	display: flex !important;
+	padding-top: 5px;
+}
+.checkout-index-index .checkout-shipping-method .item-options .control textarea {
+	max-width: 96%;
+	width: 100%;
+	margin-top: 5px;
+	border-color: #ccc;
+	padding-left: 10px;
+	min-height: 100px;
+}
+.checkout-index-index .checkout-shipping-method .field > input[type="radio"] + label {
+	width: 100%;
+}
+.checkout-index-index .checkout-shipping-method .field > input[type="radio"] + label:before,
+.checkout-index-index .checkout-shipping-method .field > input[type="radio"] + label:after {
+	top: 10px;
+}
+.homepageSlider.object-fit img {
+	object-fit: contain;
+}
+
+
+/*===================================
+=            MEDIA QUERY            =
+===================================*/
+@media (max-width: 768px)
+{
+	.customer-address-form .form-address-edit > fieldset 
+	{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.customer-address-form .form-address-edit .actions-toolbar {
+		padding: 0 15px;
+	}
+}
+/* slide right design */
+.mfp-slide-right .header.links {
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+}
+/* location popup design */
+.location-popup .ced-cshyperlocal-search-form input[type="text"],
+.location-popup .ced-cshyperlocal-search-form
+{
+	width: 100%;
+}
+@media screen and (min-width: 421px) {
+	.location-popup .ced-detect-location input[type="submit"]{
+		padding: 6px 6px 6px 18px;
+	}
+	.location-popup .ced-detect-location .apply-icon::before {
+		left: 12px;
+	}
+	.location-popup .ced-detect-location {
+		display: flex;
+		margin: 15px auto 0;
+		justify-content: center;
+		align-items: baseline;
+	}
+}
+@media (max-width: 767px) {
+	.mfp-slide-right .block-location .ced-cshyperlocal-edit-location .location-icon::before {
+		left: 0;
+	}
+}
+@media screen and (max-width: 420px) {
+	.location-popup .ced-detect-location .apply-icon::before {
+		top: 12px;
+	}
+}
+/*LOGO CSS*/
+.header .menu-logo .logo img {
+	width: 120px;
+}
+/* order comment css*/
+.order-comment-input {
+	background: #fff;
+	border: 1px solid #c2c2c2;
+	border-radius: 4px;
+	padding: 10px;
+	width: 100%;
+}
+.order-comment-input {
+	border-color: #0073e6;
+	box-shadow: 0 0 5px rgba(0,115,230,0.3);
+}

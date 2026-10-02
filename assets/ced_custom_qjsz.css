@@ -1,0 +1,189 @@
+.product_list_page .page_title{
+    margin-bottom: 15px;
+}
+.sidebar.sidebar-mains {
+	margin-bottom: 15px;
+	max-height: 680px;
+	overflow-y: auto;
+}
+.sidebar.sidebar-mains a{
+    display: block;
+    font-size: 14px;
+    padding: 5px 0;
+    color: #222;
+}
+.multistep-progress-bar {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+/*---------------- Vendor Issues ----------------*/
+.label.terms_label{
+	text-align: left;
+	white-space: unset;
+}
+.login-form-body-wrap .buttons-set .btn{
+	white-space: unset;
+	font-size: 17px !important;
+	font-weight: unset;
+}
+.admin__field-control ._has-datepicker.admin__control-text{
+	width: 165px;
+}
+.productFormConfigurable .action-create-new.action-tertiary{
+    display: none;
+}
+.attribute-entity-actions .action-remove-all.action-tertiary{
+	display: none !important;
+}
+.card-block .notification_list.unread_notifications {
+	max-height: 78px;
+	overflow-y: auto;
+	margin-bottom: 0;
+}
+.steps-wizard.productFormConfigurable .admin__control-radio:checked + label::after,
+.modal-inner-wrap .admin__control-radio:checked + label::after{
+	top: 4px;
+}
+.pac-container{
+	z-index: 9999999 !important;
+	box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.35) !important;
+}
+/*---------------- Vendor Issues Complete----------------*/
+@media only screen and (min-width: 768px){
+	body .modal-popup .modal-inner-wrap{
+		max-width: 480px;
+	}
+	body .modal-popup .modal-header, 
+	body .modal-popup .modal-content, 
+	body .modal-popup .modal-footer{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+ul.products-list li a img{
+	height: 80px;
+	object-fit: contain;
+}
+.csmarketplace-vshops-view .h3.page_title{
+	text-align: center !important;
+}
+
+.page-print.account.sales-order-print .block.block-order-details-view.order_info_box {padding:25px}
+.top_header .right_menu  ul li  .profile-progress span{padding: 4px;display: inline;}
+
+.subtotal.total_price,
+.shopping_cart .block-minicart .block-content > .actions > .primary {
+	text-align: center !important;
+}
+
+
+/*/ css for product page pricing section*/
+.product_detail_page .price{
+  padding: 0px 8px 0 0 !important;;
+  margin: 0;
+}
+.vendor-info{
+	display: inline-block;
+}
+.pro_detail .container,.pro_detail .container .row{
+	padding:0;
+}
+.product-options-bottom{
+	margin-top: 15px !important;
+}
+.product-info-main .product-add-form {
+  padding-top: 10px !important;
+}
+.homepage-image{
+	padding:0;
+}
+.homepage-span{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	display: block;
+	background-color: rgba(0,0,0,.6);
+	width: 100%;
+	padding: 15px 20px;
+}
+
+.homepage-span a.btn{
+	margin-top:10px !important;
+}
+.breadcrumb-item.products{
+	margin:0 !important;
+}
+/*vendor shop page css*/
+
+.csmarketplace-vshops-index .sidebar.sidebar-additionals .shipping > h2{
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+.csmarketplace-vshops-index .sidebar.sidebar-additionals .shipping form{
+	background: #f5f5f5;
+	padding: 15px;
+}
+.csmarketplace-vshops-index .sidebar.sidebar-additionals .shipping form .form-list{
+	margin-bottom: 10px;
+}
+.csmarketplace-vshops-index .sidebar.sidebar-additionals .shipping form .form-list label{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.csmarketplace-vshops-index h1{
+	line-height: inherit;
+}
+/* August-22 */
+.catalog-product-view .pro_detail .variant .product-options-wrapper .choice {
+    display: flex;
+}
+.catalog-product-view .pro_detail .variant .product-options-wrapper .choice input {
+    margin-top: 0!important;
+}
+.catalog-product-view .pro_detail .variant .product-options-wrapper .choice label {
+    margin-bottom: 0;
+}
+.catalog-product-view .container.add_container {
+    float: none;
+}
+
+/*Login Page design*/
+#otplogin-wrapper {
+	background: #fff;
+	padding: 20px;
+	margin: 22px 0;
+}
+#otplogin-wrapper .form input.validate-mobile-number {
+	padding: 10px;
+	border-radius: 5px;
+	width : 100%;
+}
+.iti__selected-flag {
+	border-right: 1px solid #ccc;
+}
+#otplogin-wrapper .form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+#otplogin-wrapper .iti.iti--allow-dropdown.iti--separate-dial-code {
+	width : 100%
+}
+#generate-otp-btn button {
+	width: 100%;
+	border-radius: 5px;
+	background : transparent;
+	font-weight : 500;
+}
+#generate-otp-btn button:hover {
+	background: #FCB800;
+}
+.field.telephone .label {
+	font-weight:500;
+}
+button.action.primary.checkout {
+    display: block !important;
+}

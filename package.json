@@ -1,0 +1,15 @@
+{
+  "name": "a2z2go-ceo-birthday-surprise",
+  "version": "1.0.0",
+  "description": "A2Z2GO CEO Ms. Mary Birthday Surprise & Chaos Prank Website",
+  "scripts": {
+    "dev": "serve . -l 3000",
+    "start": "serve . -l 3000"
+  },
+  "keywords": ["birthday", "prank", "a2z2go"],
+  "author": "A2Z2GO Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
