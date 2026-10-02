@@ -119,6 +119,14 @@ pointer-events:auto !important;
 clip:auto !important;
 color-scheme:light !important;}</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/invalidation-rules/website-rule" src="assets/website-rule_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MageBig_WidgetPlus/js/product/list/listing" src="assets/listing_002_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/list/columns/image" src="assets/image_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/name" src="assets/name_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Msrp/js/product/list/columns/msrp-price" src="assets/msrp-price_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MageBig_WidgetPlus/js/product/addtocart-button" src="assets/addtocart-button_002_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/addtocompare-button" src="assets/addtocompare-button_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/learn-more" src="assets/learn-more_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/grid/columns/column" src="assets/column_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Wishlist/js/product/addtowishlist-button" src="assets/addtowishlist-button_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/list/column-status-validator" src="assets/column-status-validator_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/uenc-processor" src="assets/uenc-processor_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/grid/listing" src="assets/listing_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/list/columns/price-box" src="assets/price-box_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/addtocart-button" src="assets/addtocart-button_qjsz.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/grid/dnd" src="assets/dnd_qjsz.js"></script>
 <style id="prank-celebration-styles">
+  /* Completely hide any trace of the saved newsletter popup modal */
+  .mfp-bg, .mfp-wrap, #magebig_newsletter, .mfp-ready, .mfp-preloader {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
+
   /* Progress Bar */
   #topProgressBar {
     position: fixed;
@@ -748,35 +756,7 @@ color-scheme:light !important;}</style><script type="text/javascript" charset="u
 </style>
 
 </head>
-    <body data-container="body" id="html-body" class="page-products layout01 cms-home-onecolumn cms-index-index page-layout-1column"><div class="mfp-bg mfp-zoom-in mfp-ready" style="height: 5702px; position: absolute;"></div><div class="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-zoom-in mfp-ready" tabindex="-1" style="top: 0px; position: absolute; height: 652px;"><div class="mfp-container mfp-s-ready mfp-inline-holder"><div class="mfp-content"><div id="magebig_newsletter" style="max-width: 830px; height: auto; min-height: 400px; background: url(https://a2z2golive-media.s3.ap-southeast-1.amazonaws.com/wysiwyg/magebig/newsletter/NEWS_1.png) right 0 no-repeat; background-size: cover;" class="zoom-anim-dialog">
-    <div class="newsletter-content">
-        <div class="newsletter-inner clearfix">
-            <div class="text-center col-12 col-sm-7 col-md-7 col-lg-7">
-                <div class="newsletter-title">
-                    <h3 class="text-center">Get <span>PHP350.00 </span> Discount Voucher</h3>
-                </div>
-                <div class="newsletter_text">
-                    <div class="text_desc">
-                        Subscribe to the A2Z2Go mailing list to receive updates on new arrivals, special offers and our promotions.                    </div>
-                    <form class="form" novalidate="novalidate" action="https://a2z2go.com/newsletter/subscriber/new/" method="post" id="mb-newsletter-form">
-                        <input name="form_key" type="hidden" value="0HUu9Hx6RIoTRPbA">                        <div class="input-box field">
-                            <input name="email" type="text" id="mb-newsletter" value="Enter your email address" onclick="this.value=='Enter your email address'?this.value='':''" onblur="this.value==''?this.value='Enter your email address':''" class="input-text" data-validate="{required:true, 'validate-email':true}">
-                                                        <button type="submit" title="Subscribe" class="btn action primary">
-                                    <span><span>Subscribe</span></span></button>
-
-                            <label class="text-hide" for="mb-newsletter">
-                                Sign Up for Our Newsletter:                            </label>
-                        </div>
-                    </form>
-                </div>
-                <div class="not-show-popup field">
-                    <input type="checkbox" id="discheck">
-                    <label class="subcriber_label" for="discheck"><span>Don’t show this popup</span></label>
-                </div>
-            </div>
-        </div>
-    </div>
-<button title="Close (Esc)" type="button" class="mfp-close"></button></div></div><div class="mfp-preloader">Loading...</div></div></div>
+    <body data-container="body" id="html-body" class="page-products layout01 cms-home-onecolumn cms-index-index page-layout-1column">
         <div class="magebig-mobile-menu overlay-contentpush">
     <div class="nav-bar-wrap">
         <nav class="nav-bar">
